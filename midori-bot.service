@@ -1,0 +1,14 @@
+[Unit]
+Description=Midori Twitter Bot
+After=network.target
+
+[Service]
+Type=simple
+User=soyaakinohara
+WorkingDirectory=/home/soyaakinohara/midori_twitter_bot
+ExecStart=/usr/bin/python3 /home/soyaakinohara/midori_twitter_bot/scheduler.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

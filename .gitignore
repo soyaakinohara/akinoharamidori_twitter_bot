@@ -1,0 +1,8 @@
+.env
+usermemory/
+reply_context.json
+tweet_history.json
+last_processed_id.txt
+last_tweet_id.txt
+last_memory_lint.txt
+__pycache__/
